@@ -1,4 +1,4 @@
-PRINT "LGRocketOS-0.1 Launched.".
+PRINT "LGRocketOS-0.2 Launched.".
 COPYPATH("0:/LGRocketOS/abort.ks", "").
 IF ALTITUDE > 500 {
   PRINT "ABORT SEQUENCE ENGAGED.".
