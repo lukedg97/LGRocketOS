@@ -4,6 +4,6 @@ IF ALTITUDE > 500 {
   PRINT "ABORT SEQUENCE ENGAGED.".
   RUN abort.ks.
 }ELSE{
-  COPYPATH("0:/LGRocketOS/launch.ks", "").
-  RUN launch.ks.
+  COPYPATH("0:/LGRocketOS/launchNEW.ks", "").
+  RUN launchNEW.ks.
 }
